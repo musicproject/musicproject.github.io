@@ -1,2 +1,1 @@
-# musicproject.github.io
-Music Project
+# Music.com
