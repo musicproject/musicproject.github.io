@@ -68,7 +68,7 @@ footer address:last-child {
 
 @media(min-width: 768px) {
 	#paineis-sobre {
-		margin-top: 0;	
+		margin-top: 0;
 	}
 }
 
@@ -85,4 +85,8 @@ footer address:last-child {
 	}
 }
 
-
+#rodape{
+	margin: auto;
+	align-items: center;
+	padding: 100px;
+}
