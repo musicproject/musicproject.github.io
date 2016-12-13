@@ -82,6 +82,11 @@ footer address:last-child {
 	#paineis-sobre {
 		margin-top: 0;
 	}
+
+	.painel {
+		width: 100%;
+		height: auto;
+	}
 }
 
 @media(min-width: 992px) {
@@ -100,4 +105,8 @@ footer address:last-child {
 #equipe{
 	margin: auto;
 	padding: 40px;
+}
+
+.equipe-marge{
+	left: 50%
 }
