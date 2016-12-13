@@ -14,6 +14,7 @@ header {
 	background-position: top center;
 	height: 100%;
 	width: 100%;
+	position: relative;
 }
 
 
@@ -33,6 +34,17 @@ header h1 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	transition: .3s;
+}
+
+.rock_logo{
+	color: #FFF;
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .titulo-depoimentos {
