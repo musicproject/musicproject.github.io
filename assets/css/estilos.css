@@ -47,6 +47,19 @@ header h1 {
 	transform: translate(-50%, -50%);
 }
 
+.rock h2{
+	font-family: 'Cabin Sketch', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.rock h3 {
+	font-family: 'Cabin Sketch', cursive;
+	font-style: normal;
+	font-weight: bold;
+}
+
 .titulo-depoimentos {
 	background-color: #0275D8;
 	padding-top: 25px;

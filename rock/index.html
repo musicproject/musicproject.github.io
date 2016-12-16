@@ -7,9 +7,10 @@
 	<title>Music Project</title>
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 </head>
 <body>
-	<header>
+	<header id="topo">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 
@@ -26,7 +27,19 @@
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 					<ul class="nav navbar-nav">
-						<li><a href="#conteudo">Rock</a></li>
+						<li><a href="#topo">Rock</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Historia do rock<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#anos50">Anos 50 - Onde tudo começou</a></li>
+								<li><a href="#anos60">Anos 60 - Sexo, drogas e Rock’n’Roll</a></li>
+								<li><a href="#anos70">anos 70</a></li>
+								<li><a href="#anos80">anos 80</a></li>
+								<li><a href="#anos90">anos 90</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -38,16 +51,50 @@
 		</div>
 	</header>
 
-	<section id="conteudo" class="container">
-		<h2><img src="../images/igor.png" style="height:30px" class="img-responsive"></h2>
-		<div class="container text-center" id="project">
-			<br><br>
-			<h2>Modelo Inicial</h2>
-			<br><br>
-			<p>Pagina em Branco</p>
-			<hr>
+	<section id="historia" class="container rock">
+		<h2>Historia do rock</h2>
+
+		<div id="anos50" class="container">
+			<br><br />
+			<h3>Anos 50 - Onde tudo começou</h3>
+			<P>A mistura de gêneros musicais que foi chamada de rock teve seu início nos anos 50, o estilo começou caindo no gosto dos jovens,
+				os quais se identificavam com o estilo rebelde dos cantores da época, e pouco tempo depois o rock já estava espalhado por todo o mundo.</P>
+				<p>Entre alguma das maiores músicas desta época temos:</P>
+					<ul>
+						<li>Bill Haley &amp; His Comets - Rock Around The Clock (1954)</li>
+						<li>Elvis Presley - Don't Be Cruel (1956)</li>
+						<li>Chuck Berry - Johnny B. Goode (1958)</li>
+						<li>Richie Valens - La Bamba (1958)</li>
+					</ul>
 		</div>
 
+		<div id="anos60" class="container">
+			<br><br />
+			<h3>Anos 60 - Sexo, drogas e Rock’n’Roll</h3>
+			<p>Este foi um dos períodos mais populares do rock, aqui temos o surgimento de diversas bandas famosas, entre elas “the beatles”.</p>
+			<p>O rock nesse período contribuíram para movimentos pacifistas e várias manifestações contra a guerra do Vietnã,
+				 as letras ficam cada vez mais politizadas, principalmente nas mãos de bob dylan, sua música “all along the watchtower”,
+				  principalmente a versão gravada por jimi hendrix se tornou um hino para os soldados da guerra do Vietnã</p>
+			<p>Nesse período, devido ao crescimento do uso de drogas, temos o surgimento do famoso lema:  “Sexo, drogas e Rock’n’Roll.”</p>
+			<p>Algumas das principais músicas desse período são:</p>
+			<ul>
+				<li>The Rolling Stones - (I Can't Get No) Satisfaction (1964)</li>
+				<li>the beatles - twist and shout (1964)</li>
+				<li>The Who - My Generation (1965)</li>
+				<li>Bob Dylan - Like a Rolling Stone (1965)</li>
+				<li>Jimi Hendrix - All Along The Watchtower (1965)</li>
+				<li>The Rolling Stones - Paint It, Black (1966)</li>
+				<li>The Beatles - A Day In The Life (1967)</li>
+				<li>Jimi Hendrix - Hey Joe (1967)</li>
+				<li>The Beatles - Hey Jude (1968)</li>
+				<li>The Rolling Stones - Sympathy For The Devil (1968)</li>
+				<li>Steppenwolf - Born To Be Wild (1968)</li>
+				<li>Elvis Presley - Suspicious Minds (1969)</li>
+				<li>The Beatles - Come Together (1969)</li>
+				<li>Creedence Clearwater Revival - Proud Mary (1969)</li>
+			</ul>
+		</div>
+		<hr />
 	</section>
 
 	<footer id="equipe">
