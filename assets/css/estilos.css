@@ -17,12 +17,52 @@ header {
 	position: relative;
 }
 
+dex{
+	background-image: url(../../images/ta.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
 
-header h1 {
+df{
+	font-family: 'Italiana', serif;
+        background-position: right center;
+        background-color: rgb(0, 191, 255,);
+	font-size: 41px;
+        
+}
+
+
+header h1{
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
+.center { 
+    height: 200px;
+    position: relative; 
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -15%);
+}
+
+.center p1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, -15%);
+}
 .topCasaFina-banner {
 	color: #FFF;
 	background-color: rgba(0, 0, 0, .5);
@@ -45,19 +85,6 @@ header h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-
-.rock h2{
-	font-family: 'Cabin Sketch', cursive;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 40px;
-}
-
-.rock h3 {
-	font-family: 'Cabin Sketch', cursive;
-	font-style: normal;
-	font-weight: bold;
 }
 
 .titulo-depoimentos {
