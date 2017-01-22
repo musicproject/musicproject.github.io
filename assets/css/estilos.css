@@ -105,3 +105,20 @@ footer address:last-child {
 	font-family:"a bit sketchy";
 	color:white;
 }
+
+.blogg{
+	width:90%;
+	float:left;
+	margin-top:5%;
+	margin-left:5%;
+	padding: 20px;
+	border-radius: 5px;
+}
+.roda-5{
+	width:20%;
+	float:left;
+	position:relative;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px
+}
