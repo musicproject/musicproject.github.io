@@ -34,6 +34,29 @@ header h1 {
 	transform: translate(-50%, -50%);
 	transition: .3s;
 }
+.rock_logo{
+	color: #FFF;
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.rock h2{
+	font-family: 'Cabin Sketch', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.rock h3 {
+	font-family: 'Cabin Sketch', cursive;
+	font-style: normal;
+	font-weight: bold;
+}
 
 .titulo-depoimentos {
 	background-color: #0275D8;
