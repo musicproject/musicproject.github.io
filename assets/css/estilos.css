@@ -3,14 +3,6 @@
 }
 
 html,
-body {
-	background-image: url(../../images/wallpaper.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: fixed;
-	height: 100%;
-	width: 100%;
-}
 .blogg{
 	width:90%;
 	float:left;
