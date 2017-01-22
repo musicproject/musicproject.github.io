@@ -6,49 +6,6 @@ html,
 body {
 	height: 100%;
 }
-.blogg{
-	width:90%;
-	float:left;
-	margin-top:5%;
-	margin-left:5%;
-	padding: 20px;
-	border-radius: 5px;
-}
-.roda-5{
-	width:20%;
-	float:left;
-	position:relative;
-	min-height:1px;
-	padding-right:15px;
-	padding-left:15px
-}
-#equipe{
-	width:100%;
-	float:left;
-	padding-left:5%;
-	padding-right:5%;
-}
-@font-face{
-	font-family:"a bit sketchy";
-	src:url("a bit sketchy.ttf") format("truetype");
-}
-.fonte-ichi{
-	font-family:"a bit sketchy";
-	color:black;
-}
-.fonte-ichi-red{
-	font-family:"a bit sketchy";
-	color:red;
-}
-.fonte-ichi-blue{
-	font-family:"a bit sketchy";
-	color:blue;
-}
-.fonte-ichi-white{
-	font-family:"a bit sketchy";
-	color:white;
-}
-
 
 header {
 	background-image: url(../../images/wallpaper.png);
@@ -57,9 +14,6 @@ header {
 	background-position: top center;
 	height: 100%;
 	width: 100%;
-	float:left;
-	transform: translate(-50%, -50%);
-	transition: .3s;
 }
 
 
@@ -72,6 +26,7 @@ header h1 {
 	color: #FFF;
 	background-color: rgba(0, 0, 0, .5);
 	padding: 20px;
+	width: 80%;
 	border-radius: 5px;
 	position: absolute;
 	top: 50%;
@@ -101,15 +56,15 @@ header h1 {
 }
 
 footer {
-	background-color: rgba(0, 0, 0, .9);
+	background-color: #333;
 	color: #FFF;
+	padding: 20px;
 	margin-top: 10px;
 }
 
 footer address:last-child {
 	margin-bottom: 0;
 }
-
 
 @media(min-width: 768px) {
 	#paineis-sobre {
@@ -130,3 +85,23 @@ footer address:last-child {
 	}
 }
 
+@font-face{
+	font-family:"a bit sketchy";
+	src:url("a bit sketchy.ttf") format("truetype");
+}
+.fonte-ichi{
+	font-family:"a bit sketchy";
+	color:black;
+}
+.fonte-ichi-red{
+	font-family:"a bit sketchy";
+	color:red;
+}
+.fonte-ichi-blue{
+	font-family:"a bit sketchy";
+	color:blue;
+}
+.fonte-ichi-white{
+	font-family:"a bit sketchy";
+	color:white;
+}
