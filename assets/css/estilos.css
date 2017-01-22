@@ -3,6 +3,9 @@
 }
 
 html,
+body {
+	height: 100%;
+}
 .blogg{
 	width:90%;
 	float:left;
