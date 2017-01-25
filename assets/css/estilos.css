@@ -181,10 +181,13 @@ footer address:last-child {
 	}
 }
 
-@font-face{
-	font-family:"a bit sketchy";
-	src:url("a bit sketchy.ttf") format("truetype");
+@font-face {
+	font-family:"A bit sketchy";
+	src:url("A_bit_sketchy.eot?") format("eot"),url("A_bit_sketchy.woff") format("woff"),url("A_bit_sketchy.ttf") format("truetype"),url("A_bit_sketchy.svg#Abitsketchy-Regular") format("svg");
+	font-weight:normal;
+	font-style:normal;
 }
+
 .fonte-ichi{
 	font-family:"a bit sketchy";
 }
