@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="../images/favicon.ico" />
 		<title>Music Project</title>
-		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/bootstrap-3.3.7-dist\css\bootstrap.css">
 		<link rel="stylesheet" href="../assets/css/estilos.css">
 </head>
 <body>
@@ -13,7 +13,7 @@
 
 	<header>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
+			<div id="nav" class="container">
 				<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
@@ -22,7 +22,7 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<a class="navbar-brand" href="../">Music Project</a>
+						<a class="navbar-brand mybtn" href="../">Music Project</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
@@ -33,22 +33,32 @@
 				</div>
 			</div>
 		</nav>
-
-		<div class="topCasaFina-bannerWrapper container">
-			<div class="rock_logo text-justify">
-			<img src="../images/logo-sertanejo.png" alt="logo Sertanejo"  class="img-circle"/>
-			</div>
-		</div>
 	</header>
-
-	<div class="container text-center">	
-		<iframe width="420" height="345" src="https://www.youtube.com/embed/FoiatUqCk7M?autoplay=1">
-</iframe>	
-	</div>
-
-	<section id="conteudo" class="container">
-		<div class="row">
-			<div class="container text-justify " id="project">
+	
+	<section id="conteudo" class="container col-lg-12">
+		<div class="row rock deep-white col-lg-12">
+		
+			<div class="autor">
+				<name>Rafael Menezes</name>
+				<data>dezembro 2016</data>
+			</div>
+			
+			<div class="col-lg-12">
+				<div class="container col-lg-4"></div>
+				
+				<div class="container col-lg-4">
+					<div class="rock_logo">
+						<img src="../images/logo-sertanejo.png" alt="rock n roll" class="img-responsive img-circle"/>
+					</div>
+				</div>
+				
+				<div class="container col-lg-4"></div>
+			</div>
+			<div class="col-lg-4"></div>
+			<div class="container col-lg-4">	
+				<iframe width="420" height="345" src="https://www.youtube.com/embed/FoiatUqCk7M?autoplay=1"></iframe>	
+			</div>
+			<div class="container text-justify col-lg-12" id="project">
 				
 				<h2>Historia</h2>
 				<p>A música sertaneja surgiu ainda na década de 10. O pioneiro desse gênero foi o jornalista e escritor Cornélio Pires que costumava trazer para os grandes centros os costumes dos caipiras. Desde encenações teatrais a cantores de estilos como o catira, etc. Em 1912 Cornélio lançou um livro chamado Musa Caipira, que trazia versos típicos. No início da década de 20 uma instituição liderada por Mario de Andrade promoveu uma semana para divulgação da arte brasileira, onde pela primeira vez foi montado um grupo intitulado de sertanejo, com instrumentos simples como a viola caipira, misturando alguns ritmos como o Catira, Moda de Viola, Lundu, Cururu, etc, valorizando ainda mais o trabalho de Cornélio Pires. O primeiro registro de um grupo de música sertaneja foi datado de 1924 (A Turma Caipira de Cornélio Pires), formada por violeiros como Caçula e Sorocabinha e alguns outros tão importantes da época. </p>
@@ -65,51 +75,80 @@
 				<br>
 
 			</div>
-		</div>
+			
+			<div>
+				<div id="referencia" class="collapse">
+					<hr/>
+						<ul>
+							<li></li>
+						</ul>
+					</div>
+				<div class="autor btn" data-toggle="collapse" data-target="#referencia">
+					<ref >Referencias</ref>
+				</div>
+			
+			</div>
 
 	</section>
 
 
-	<footer id="equipe" class="fonte-ichi-white navbar-header navbar-inverse col-sm-12">
-		<div id="equipe-in" class="row collapse">
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-eduardo.jpg" alt="Generic placeholder image">
-					<a class="btn" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
-				</div>
+	<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+		<div id="equipe-in" class="row deep-black collapse">
+			<div class="col-sm-2 col-md-1 col-lg-1">
+				<figure >
+					<figcaption class="caption">
+					</figcaption>
+				</figure>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-gabriel.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-eduardo.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-igor.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-gabriel.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-joao.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-igor.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-rafael.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-joao.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-rafael.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-		<div class="row container btn " data-toggle="collapse" data-target="#equipe-in">
-			<center>Copiright - Music Project - UTFPR 2016 - Hacken Jr<center>
+		<div href="#equipe" class="mybtn" data-toggle="collapse" data-target="#equipe-in">
+			<h4>Music Project -  Hacken Jr © 2017</h4>
 		</div>
 	</footer>
 
 	<script src="../assets/js/jquery.js"></script>
-	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 	<script src="../assets/js/navbar-animation-fix.js"></script>
 </body>
 </html>

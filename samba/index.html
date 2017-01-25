@@ -5,12 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="../images/favicon.ico" />
 		<title>Music Project</title>
-		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/bootstrap-3.3.7-dist/css/bootstrap.css">
 		<link rel="stylesheet" href="../assets/css/estilos.css">
 </head>
 <body>
+	<header>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
+			<div id="nav" class="container">
 
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
@@ -20,63 +21,141 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="../">Music Project</a>
+					<a class="navbar-brand mybtn" href="../">Music Project</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 					<ul class="nav navbar-nav">
-						<li><a href="#conteudo">Gabriel</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+								Samba<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#historia">Historia do Samba</a></li>
+								<li><a href="#Origem">Origens do Samba</a></li>
+								<li><a href="#Geraçoes" class="collapse">Gerações</a></li>
+								<li><a href="#Mudancas" class="collapse">Nasce o Pagode</a></li>
+							</ul>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-	<section class="container">
-		<h2>Samba</h2>
-				<p>O samba é um gênero musical, que deriva de um tipo de dança, de raízes africanas, surgido no Brasil e considerado uma das principais manifestações culturais populares brasileiras.[2][3][4][5] Dentre suas características originais, possui dança acompanhada por pequenas frases melódicas e refrões de criação anônima, alicerces do samba de roda nascido no Recôncavo Baiano.[6] Apesar de ser um gênero musical resultante das estruturas musicais europeias e africanas, foi com os símbolos da cultura negra brasileira que o samba se alastrou pelo território nacional.[7] Embora houvesse variadas formas de samba no Brasil (não apenas na Bahia, como também no Maranhão, em Minas Gerais, em Pernambuco e em São Paulo) sob a forma de diversos ritmos e danças populares regionais que se originaram do batuque, o samba como gênero musical é entendido como uma expressão musical urbana surgida no início do século XX na cidade do Rio de Janeiro, nas casas das chamadas "tias baianas" — migrantes da Bahia —, quando o samba de roda, entrando em contato com outros gêneros musicais populares entre os cariocas, como a polca, o maxixe, o lundu e o xote, fez nascer um gênero de caráter totalmente singular.[5]</p>
-				<p>Um marco dentro da história moderna e urbana do samba ocorreu em 1916, no próprio Rio de Janeiro, com a gravação em disco de "Pelo Telefone", considerado o primeiro samba a ser gravado no Brasil (segundo os registros da Biblioteca Nacional). O sucesso alcançado pela canção contribuiu para a divulgação e popularização do samba como gênero musical.[nota 1]</p>
-				<p>A partir de então, esse estilo de samba urbano surgido no Rio começou a ser propagado pelo país e, no ano de 1930, foi alçado da condição "local" à de símbolo da identidade nacional brasileira.[3][8] Inicialmente, foi um samba associado ao carnaval e posteriormente adquirindo um lugar próprio no mercado musical. Surgiram muitos compositores como Heitor dos Prazeres, João da Baiana, Pixinguinha, Donga e Sinhô, mas os sambas destes compositores eram amaxixados, conhecidos como sambas-maxixe. Os contornos modernos desse samba urbano carioca viriam somente no final da década de 1920, a partir de inovações em duas frentes: com um grupo de compositores dos blocos carnavalescos dos bairros do Estácio de Sá[9] e Osvaldo Cruz e com compositores dos morros da cidade como em Mangueira, Salgueiro e São Carlos.[10] Não por acaso, identifica-se esse formato de samba como "genuíno" ou "de raiz". A medida que o samba no Rio de Janeiro consolidava-se como uma expressão musical urbana e moderna, ele passou a ser tocado em larga escala nas rádios, espalhando-se pelos morros cariocas e bairros da zona sul do Rio de Janeiro. Inicialmente criminalizado e visto com preconceito, por suas origens negras, o samba conquistaria o público de classe média também.[11]</p>
-				<p>O samba moderno urbano surgido a partir do início do século XX, no Rio de Janeiro, tem ritmo basicamente 2/4 e andamento variado, com aproveitamento consciente das possibilidades dos estribilhos cantados ao som de palmas e ritmo batucado, e aos quais seriam acrescentados uma ou mais partes, ou estâncias, de versos declamatórios.[2] Tradicionalmente, esse samba é tocado por instrumentos de corda (cavaquinho e vários tipos de violão) e variados instrumentos de percussão, como o pandeiro, o surdo e o tamborim. Com o passar dos anos, outros instrumentos foram sendo assimilados, e se criaram novas vertentes oriundas dessa base urbano carioca de samba, que ganharam denominações próprias, como o samba de breque, o samba-canção, a bossa nova, o samba-rock, o pagode, entre outras. Em 2005, o samba de roda se tornou um Patrimônio da Humanidade da Unesco.[12]</p>
-	</section>
-	<footer id="equipe" class="fonte-ichi-white navbar-header navbar-inverse col-sm-12">
-		<div id="equipe-in" class="row collapse">
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-eduardo.jpg" alt="Generic placeholder image">
-					<a class="btn" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
-				</div>
+	</header>
+	<div class="container col-lg-12">
+		<section class="row df deep-white">
+			<div class="autor">
+				<name>Gabriel Choptian</name>
+				<data>23 de janeiro de 2017</data>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-gabriel.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+			<div class="container text-justify">
+				
+				<div id="historia">
+					<h1>Samba</h1>
+					
+					<p>O samba é um gênero musical, que deriva de um tipo de dança, de raízes africanas, surgido no Brasil e considerado uma das principais manifestações culturais populares brasileiras. Dentre suas características originais, possui dança acompanhada por pequenas frases melódicas e refrões de criação anônima, alicerces do samba de roda nascido no Recôncavo Baiano. Apesar de ser um gênero musical resultante das estruturas musicais europeias e africanas, foi com os símbolos da cultura negra brasileira que o samba se alastrou pelo território nacional. Embora houvesse variadas formas de samba no Brasil (não apenas na Bahia, como também no Maranhão, em Minas Gerais, em Pernambuco e em São Paulo) sob a forma de diversos ritmos e danças populares regionais que se originaram do batuque, o samba como gênero musical é entendido como uma expressão musical urbana surgida no início do século XX na cidade do Rio de Janeiro, nas casas das chamadas "tias baianas" — migrantes da Bahia —, quando o samba de roda, entrando em contato com outros gêneros musicais populares entre os cariocas, como a polca, o maxixe, o lundu e o xote, fez nascer um gênero de caráter totalmente singular.</p>
+					<p>Um marco dentro da história moderna e urbana do samba ocorreu em 1916, no próprio Rio de Janeiro, com a gravação em disco de "Pelo Telefone", considerado o primeiro samba a ser gravado no Brasil (segundo os registros da Biblioteca Nacional). O sucesso alcançado pela canção contribuiu para a divulgação e popularização do samba como gênero musical.</p>
+					<p>A partir de então, esse estilo de samba urbano surgido no Rio começou a ser propagado pelo país e, no ano de 1930, foi alçado da condição "local" à de símbolo da identidade nacional brasileira. Inicialmente, foi um samba associado ao carnaval e posteriormente adquirindo um lugar próprio no mercado musical. Surgiram muitos compositores como Heitor dos Prazeres, João da Baiana, Pixinguinha, Donga e Sinhô, mas os sambas destes compositores eram amaxixados, conhecidos como sambas-maxixe. Os contornos modernos desse samba urbano carioca viriam somente no final da década de 1920, a partir de inovações em duas frentes: com um grupo de compositores dos blocos carnavalescos dos bairros do Estácio de Sá[9] e Osvaldo Cruz e com compositores dos morros da cidade como em Mangueira, Salgueiro e São Carlos. Não por acaso, identifica-se esse formato de samba como "genuíno" ou "de raiz". A medida que o samba no Rio de Janeiro consolidava-se como uma expressão musical urbana e moderna, ele passou a ser tocado em larga escala nas rádios, espalhando-se pelos morros cariocas e bairros da zona sul do Rio de Janeiro. Inicialmente criminalizado e visto com preconceito, por suas origens negras, o samba conquistaria o público de classe média também.</p>
+					<p>O samba moderno urbano surgido a partir do início do século XX, no Rio de Janeiro, tem ritmo basicamente 2/4 e andamento variado, com aproveitamento consciente das possibilidades dos estribilhos cantados ao som de palmas e ritmo batucado, e aos quais seriam acrescentados uma ou mais partes, ou estâncias, de versos declamatórios. Tradicionalmente, esse samba é tocado por instrumentos de corda (cavaquinho e vários tipos de violão) e variados instrumentos de percussão, como o pandeiro, o surdo e o tamborim. Com o passar dos anos, outros instrumentos foram sendo assimilados, e se criaram novas vertentes oriundas dessa base urbano carioca de samba, que ganharam denominações próprias, como o samba de breque, o samba-canção, a bossa nova, o samba-rock, o pagode, entre outras. Em 2005, o samba de roda se tornou um Patrimônio da Humanidade da Unesco.</p>
 				</div>
+				<hr/>
+				<div id="Origem">
+				<h3>Origens do termo samba</h3>
+				
+				<p>Por muitos anos da história do Brasil, o termo "batuque" era a denominação comum a qualquer manifestação que reunisse canto, dança e uso de instrumentos dos negros, por extensão designando festejos. Esse sentido amplo permaneceu na literatura colonial até o início do século XX, quando a palavra "samba" passou a suplantar "batuque". Em meados do século XIX, a palavra "samba" definia diferentes tipos de música introduzidas pelos escravos africanos, sempre conduzida por diversos tipos de batuques, mas que assumiam características próprias em cada Estado brasileiro, não só pela diversidade das tribos de escravizados, como pela peculiaridade de cada região em que foram assentados. Algumas destas danças populares conhecidas foram: bate-baú, samba-corrido, samba-de-roda, samba-de-chave e samba-de-barravento, na Bahia; coco, no Ceará; tambor-de-crioula (ou ponga), no Maranhão; trocada, coco-de-parelha, samba de coco e soco-travado, no Pernambuco; bambelô, no Rio Grande do Norte; partido-alto, miudinho, jongo e caxambu, no Rio de Janeiro; samba-lenço, samba-rural, tiririca, miudinho e jongo em São Paulo.</p>
+
+				<p>Existem algumas versões acerca do nascimento do termo "samba". Uma delas afirma ser originário do termo "Zambra" ou "Zamba", oriundo da língua árabe, tendo nascido mais precisamente quando da invasão dos mouros à Península Ibérica no século VIII. Uma outra diz que é originário de um das muitas línguas africanas, possivelmente do quimbundo, onde "sam" significa "dar", e "ba" "receber" ou "coisa que cai". Ainda há uma versão que diz que a palavra samba vem de outra palavra africana, semba, que significa umbigada.</p>
+				</div>
+				<hr/>
+				<div id="Geraçoes">
+					<h3>O moderno e urbano samba</h3>
+					
+					<p>No início do século XX, a literatura carioca já registrava frequentemente o termo samba, que àquela altura estava cada vez mais distante de sua inspiração folclórica e mais próximo das situações em que diziam respeito ao ambiente urbano e já mestiçado da então capital brasileira. Comparado com o maxixe e o tango, o samba aos poucos estava sendo pavimentado e, já dispondo de instrumentos percussivos, foi gradualmente ganhando popularidade como ritmo musical do Rio de Janeiro.</p>
+					<p>Durante as primeiras décadas do século XX, a especulação imobiliária se espalhava pela cidade do Rio de Janeiro. Com isso, formaram-se diversos morros e favelas no cenário urbano carioca. O samba carioca que havia nascido no centro da cidade galgaria as as encostas dos morros e se alastraria pelos subúrbios da cidade. Estes locais seriam o celeiro de novos talentos musicais e da consolidação moderna do samba urbano carioca surgido com as "tias baianas". Foram inovações tão importantes que perduram até os dias atuais dentro do samba carioca urbano, mais tarde alçado à condição de "nacional".</p>
+					<p>Entre o final da década de 1920 e meados da década de 1940, o samba urbano carioca deixaria de ser considerado expressão local (como são tidos sambas em outras partes do país) para ser elevado, com auxílio do Estado, a um status de "símbolo nacional". Esse samba oriundo de uma região do Rio de Janeiro espalhava-se por outras áreas da cidade, não apenas com os sambas de carnaval, mas também com novas formas dentro do estilo moderno carioca, como o samba-canção e o samba-exaltação. Difundidos pelas ondas do rádio, estes estilos cariocas seriam conhecidos em outras partes do Brasil, que, com a influência do governo federal brasileiro (mais propriamente partir dos projetos político-ideológicos do Estado Novo de Getúlio Vargas), elevaria o samba local da cidade do Rio de Janeiro à condição de samba "nacional" - muito embora existam outras formas e práticas do samba no país. A aproximação do Estado brasileiro com a música popular deu-se também pela oficialização, em 1935, do desfile de carnaval pela Prefeitura do então Distrito Federal.</p>
+				</div>
+				<hr/>
+				<div id="Mudancas">
+					<h3>Pagode</h3>
+					<p>Depois de um período de esquecimento onde as rádios eram dominadas pela disco music e pelo rock brasileiro, o samba consolidou sua posição no mercado fonográfico na década de 1980, especialmente impulsionado por um novo estilo, que foi batizado de pagode. Com características do choro e um andamento de fácil execução para os dançarinos, o pagode é basicamente dividido em duas tendências. A primeira delas é mais ligada ao partido-alto, também chamada de pagode de raiz, que conservava a linhagem sonora e fortemente influenciada por gerações passadas. A segunda tendência, considerada mais "popular", ficou conhecida como "pagode-romântico" e passou a ter grande apelo comercial na década de 1990 em diante.</p>
+					<p>Nascido no final da década anterior, por meio das rodas de samba que um grupo de cantores e compositores faziam embaixo da tamarineira da quadra do Bloco Carnavalesco Cacique de Ramos, o pagode era um samba renovado, que utilizava novos instrumentos que davam uma sonoridade peculiar àquele grupo, como o banjo com braço de cavaquinho (criado por Almir Guineto) e o tantã (criado por Sereno), e uma linguagem mais popular.</p>
+					<p>A partir do ano 2000, surgiram alguns artistas que buscavam se reaproximar do samba mais vinculado à estilo consolidado nos morros cariocas, muitas vezes chamado "samba de raiz". Foram os casos de Marquinhos de Oswaldo Cruz, Diogo Nogueira (filho de João Nogueira), Teresa Cristina e Grupo Semente, Casuarina, entre outros, que contribuíram para a reabilitação da região da Lapa, no Rio de Janeiro. Outros nomes surgiram nesse tradicional reduto do samba, como o compositor Edu Krieger, que foi gravado por nomes como Roberta Sá e Maria Rita, a cantora Manu Santos, novata revelada no festival mais importante da Lapa nos dias atuais, a Mostra de Talentos do Carioca da Gema - que também trouxe nomes como Eliza Ador, Roberta Espinosa, Moyseis Marques entre vários outros. Em São Paulo, o grupo Quinteto em Branco e Preto desenvolve o evento (no bairro de Santo Amaro) "Samba da Vela" - no qual seus participantes só cantam sambas inéditos de compositores desconhecidos da indústria musical. Isso tudo contribuiu para atrair vários artistas do Rio de Janeiro que, além de shows, fixaram residência em bairros da capital, como São Mateus. Já grupos como o Funk Como Le Gusta e Clube do Balanço deram continuidade aos bailes inspirados na época do sambalanço e do samba-rock.</p>
+				</div>
+				<div id="samba-rock" class="collapse">
+					<h3>Os Virguloides</h3>
+				</div>
+				
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-igor.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+			<div>
+			<div id="referencia" class="collapse">
+				<hr/>
+					<ul>
+						<li><a href="https://pt.wikipedia.org/wiki/Samba">Samba – Wikipédia</a></li>
+					</ul>
 				</div>
+			<div class="autor btn" data-toggle="collapse" data-target="#referencia">
+				<ref >Referencias</ref>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-joao.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
-				</div>
 			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-rafael.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
-				</div>
+		</section>
+	</div>
+	<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+		<div id="equipe-in" class="row deep-black collapse">
+			<div class="col-sm-2 col-md-1 col-lg-1">
+				<figure >
+					<figcaption class="caption">
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-eduardo.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-gabriel.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-igor.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-joao.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-rafael.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-		<div class="row container btn " data-toggle="collapse" data-target="#equipe-in">
-			<center>Copiright - Music Project - UTFPR 2016 - Hacken Jr<center>
+		<div href="#equipe" class="mybtn" data-toggle="collapse" data-target="#equipe-in">
+			<h4>Music Project -  Hacken Jr © 2017</h4>
 		</div>
 	</footer>
 
 	<script src="../assets/js/jquery.js"></script>
-	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/bootstrap-3.3.7-dist\js\bootstrap.js"></script>
 	<script src="../assets/js/navbar-animation-fix.js"></script>
 </body>
 </html>

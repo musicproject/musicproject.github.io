@@ -4,13 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="../images/favicon.ico" />
+		<link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
 		<title>Music Project</title>
-		<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/bootstrap-3.3.7-dist\css\bootstrap.css">
 		<link rel="stylesheet" href="../assets/css/estilos.css">
 </head>
 <body>
+	<header id="top">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
+			<div id="nav" class="container">
 
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
@@ -20,74 +22,117 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="../">Music Project</a>
+					<a class="navbar-brand mybtn" href="../">Music Project</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 					<ul class="nav navbar-nav">
-						<li><a href="#conteudo">Eduardo</a></li>
+						
+						<li><a href="#page-1">Eduardo</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-	<section id="conteudo" class="container">
-		<h2><img src="../images/eduardo.png" style="height:30px"></h2>
-		<div class="row">
-			<div class="container text-center" id="project">
-				<br><br>
-				<h2>Modelo Inicial</h2>
-				<br><br>
-				<p>Pagina em Branco</p>
-				<hr>
+	</header>
+	<section id="conteudo" class="container col-lg-12">
+		<div class="row df deep-white col-lg-12">
+		
+			<div class="autor">
+				<name>Gabriel</name>
+				<data>###</data>
 			</div>
-		</div>
+			
+			<div class="container text-adjust text-justify col-lg-12">
+				<h1>Construindo</h1>
+				
+				<p>Eu ia lhe chama inquantu curria a barca.</p>
+				<p>Eu ia lhe chama inquantu curria a barca.</p>
+				<p>Eu ia lhe chama inquantu curria a barca.</p>
+				<p>Eu ia lhe chama inquantu curria a barca.</p>
+				<p>Lhe chama</p>
+				<p>Lhe chama</p>
+				<p>Eu ia lhe chama inquantu curria a barca.</p>
+				<p>....</p>
+				<p>Mais uma musica para a galera</p>
+				<p>Eu sou a mosca que sentou em sua sopa</p>
+				<p>Zuu Zuu</p>
+				<p>Eu sou a mosca que voltou para "Ficar"</p>
+				<p>Zuu Zuu</p>
+				<p>....</p>
+			</div>
+			
+			<div>
+				<div id="referencia" class="collapse">
+					<hr/>
+						<ul>
+							<li>Musicas idiotas Monark youtuber</li>
+						</ul>
+					</div>
+				<div class="autor btn" data-toggle="collapse" data-target="#referencia">
+					<ref >Referencias</ref>
+				</div>
+			
+			</div>
 
 	</section>
 
-	<footer id="equipe">
-		<div class="container rodape text-center">
-			<div class="row">
-				<address class="text-center">
-					<h5>Equipe</h5>
-				</address>
-				<address>
+	<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+		<div id="equipe-in" class="row deep-black collapse">
+			<div class="col-sm-2 col-md-1 col-lg-1">
+				<figure >
+					<figcaption class="caption">
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-eduardo.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-gabriel.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-igor.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-joao.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
+					</figcaption>
+				</figure>
+			</div>
 
-				<div class="col-sm-6 col-md-4 col-lg-2 col-lg-offset-1">
-					<img class="img-circle" src="../images/rosto-eduardo.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h5>Eduardo Yuzo Nakai</h5>
-					<p><a class="btn btn-default text-center" href="https://github.com/tabsnospaces" target="_blank" role="button">GitHub &raquo;</a></p>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-2">
-					<img class="img-circle" src="../images/rosto-gabriel.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h5>Gabriel Choptian</h5>
-					<p><a class="btn btn-default" href="https://github.com/ltdagabriel" target="_blank" role="button">GitHub &raquo;</a></p>
-				</div>
-				<div class="col-sm-6 col-md-4 col-lg-2">
-					<img class="img-circle" src="../images/rosto-igor.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h5>Igor Neves Faustino</h5>
-					<p><a class="btn btn-default" href="https://github.com/igorFaustino" target="_blank" role="button">GitHub &raquo;</a></p>
-				</div>
-				<div class="col-sm-6 col-md-6 col-lg-2">
-					<img class="img-circle" src="../images/rosto-joao.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h5>Joao Victor Nascimento</h5>
-					<p><a class="btn btn-default" href="https://github.com/JoaoVictorNascimento" target="_blank" role="button">GitHub &raquo;</a></p>
-				</div>
-				<div class="col-sm-12 col-md-6 col-lg-2">
-					<img class="img-circle" src="../images/rosto-rafael.jpg" alt="Generic placeholder image" width="140" height="140">
-					<h5>Rafael Menezes Barboza</h5>
-					<p><a class="btn btn-default" href="https://github.com/rmmenezes" target="_blank" role="button">GitHub &raquo;</a></p>
-				</div>
-				</address>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="../images/rosto-rafael.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-		<div class="text-center container">
-			<br />
-			<p class="text-center">Copiright - Music Project - UTFPR 2016 - Haken EJ</p>
+		<div href="#equipe" class="mybtn" data-toggle="collapse" data-target="#equipe-in">
+			<h4>Music Project -  Hacken Jr © 2017</h4>
 		</div>
 	</footer>
 
 	<script src="../assets/js/jquery.js"></script>
-	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../assets/bootstrap-3.3.7-dist\js\bootstrap.js"></script>
 	<script src="../assets/js/navbar-animation-fix.js"></script>
 </body>
 </html>

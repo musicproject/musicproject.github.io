@@ -5,14 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="images/favicon.ico" />
 		<title>Music Project</title>
-		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/bootstrap-3.3.7-dist\css\bootstrap.css">
 		<link rel="stylesheet" href="assets/css/estilos.css">
+		
 </head>
 <body>
 
 	<header>
 		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
+			<div id="nav" class="container">
 
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
@@ -22,235 +23,164 @@
 						<span class="icon-bar"></span>
 					</button>
 
-					<a class="navbar-brand" href="#">Music Project</a>
+					<a class="navbar-brand mybtn" href="#">Music Project</a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
-					<ul class="nav navbar-nav">
-						<li><a class="collapse" href="#page-1">Eduardo</a></li>
+					<ul class="mybtn nav navbar-nav">
+						<li><a href="#page-1">Eduardo</a></li>
 						<li><a href="#page-2">Samba</a></li>
 						<li><a href="#page-3">Rock</a></li>
 						<li><a href="#page-4">MPB</a></li>
 						<li><a href="#page-5">Sertanejo</a></li>
-						<li><a href="#equipe">Equipe</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
-
-		<div class="container topCasaFina-bannerWrapper">
-			<div class="fonte-ichi-white topCasaFina-banner">
-				<h1 class="fonte-ichi-red">Music Project</h1>
-				<p>#Music Project</p>
-				<p>#12 de Dezembro de 2016</p>
-			</div>
-		</div>
-
+		
 	</header>
-	<section id="page-1" class="container collapse">
-		<br/><br/>
+	<div class="deep-white" id="logo">
+		<div id="logoWalpaper">
+			<div class="col-lg-1"></div>
+			<div class="col-lg-4 bannerlogo">
+				<h1>#Music Project</h1>
+				<p>12 de Dezembro de 2016</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="deep-white">
+	
+	<section id="projetos" class="container text-justify">
+		<h2 class="fonte-ichi">Nossos Projetos</h2>
 		<div class="row">
-			<div class="col-sm-4">
-				<img src="images/imagem-generica-1.png" class="img-responsive" alt="" />
+			<div id="page-1" class="col-sm-12 col-md-6 col-lg-4 collapse">
+				<figure class="thumbnail">
+					<img src="images/imagem-generica-1.png" alt="">
+					<figcaption class="caption">
+						<h3 class="fonte-ichi">Eduardo Yuzo Nakai</h3>
+						<p>
+							Pagina em Contrução
+						
+							<a href="1/"> ... "continuar lendo" </a>
+						</p>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="col-sm-8">
-				<div class="row">
-
-					<div class="panel-group col-sm-6 painel" id="paineis-sobre">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
-								<h3 class="fonte-ichi panel-title">Eduardo Yuzo Nakai</h3>
-							</div>
-
-							<div class="collapse in" id="primeiro-paragrafo">
-								<div class="panel-body">
-									Vejamos oque o eduardo compartilhara conosco a seg
-									<div class="text-center">
-										<br />
-										<a href="1/index.html" class="btn btn-default">Acessar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			
+			<div id="page-2" class="col-sm-12 col-md-6 col-lg-4">
+				<figure class="thumbnail">
+					<img src="images/samba.jpg" alt="">
+					<figcaption class="caption">
+						<h3 class="fonte-ichi">Samba</h3>
+						<p>
+							O samba é um gênero musical, que deriva de um tipo de dança, de raízes africanas, surgido no Brasil e considerado uma das principais manifestações culturais populares brasileiras. Dentre suas características originais, possui dança acompanhada por pequenas
+							<a href="samba/"> ... "continuar lendo" </a>
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div id="page-3" class="col-sm-12 col-md-6 col-lg-4">
+				<figure class="thumbnail">
+					<img src="images/rock_1.jpg" alt="">
+					<figcaption class="caption">
+						<h3 class="fonte-ichi">Rock'n'Rol</h3>
+						<p>
+							A mistura de gêneros musicais que foi chamada de rock teve seu início nos anos 50, o estilo começou caindo no gosto dos jovens, os quais se identificavam com o estilo rebelde dos cantores da época, e pouco tempo depois o rock já estava espalhado por todo o mundo
+							<a href="rock/"> ... "continuar lendo" </a>
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div id="page-4" class="col-sm-12 col-md-6 col-lg-4">
+				<figure class="thumbnail">
+					<img src="images/mpb.jpg" alt="">
+					<figcaption class="caption">
+						<h3 class="fonte-ichi">MPB</h3>
+						<p>
+							A Música popular brasileira surge na década de 60, com a união da bossa nova com varios gêneros musicais. A MPB teve uma grande efeito nessa época devido aos festivais de música feitos na televisão. Essa sigla "MPB", ja era usada desde o século XX para
+							<a href="mpb/"> ... "continuar lendo" </a>
+						</p>
+					</figcaption>
+				</figure>
+			</div>
+			
+			<div id="page-5" class="col-sm-12 col-md-6 col-lg-4">
+				<figure class="thumbnail">
+					<img src="images/sertanejo.jpg" alt="">
+					<figcaption class="caption">
+						<h3 class="fonte-ichi">Sertanejo</h3>
+						<p>
+							A música sertaneja surgiu ainda na década de 10. O pioneiro desse gênero foi o jornalista e escritor Cornélio Pires que costumava trazer para os grandes centros os costumes dos caipiras. Desde encenações teatrais a cantores de estilos como o catira, etc. Em 1912
+							<a href="sertanejo/"> ... "continuar lendo" </a>
+						</p>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-		<hr />
 	</section>
-
-
-	<section id="page-2" class="container">
-		<br/><br/>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="images/samba.jpg" class="img-responsive" alt="" />
+	
+	</div>
+	
+	<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+		<div id="equipe-in" class="row deep-black collapse">
+			<div class="col-sm-2 col-md-1 col-lg-1">
+				<figure >
+					<figcaption class="caption">
+					</figcaption>
+				</figure>
 			</div>
-			<div class="col-sm-8">
-				<div class="row">
-
-					<div class="panel-group col-sm-6 painel" id="paineis-sobre">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">
-								<h3 class="fonte-ichi panel-title">Samba</h3>
-							</div>
-
-							<div class="collapse in" id="segundo-paragrafo">
-								<div class="panel-body">
-									Vejamos oque o gabriel compartilhara conosco a seg
-									<div class="text-center">
-										<br />
-										<a href="samba/index.html" class="btn btn-default">Acessar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-eduardo.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
+					</figcaption>
+				</figure>
 			</div>
-		</div>
-		<hr />
-	</section>
-
-
-	<section id="page-3" class="container">
-		<br/><br/>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="images/rock_1.jpg" alt="" class="img-responsive"/>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-gabriel.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+					</figcaption>
+				</figure>
 			</div>
-			<div class="col-sm-8">
-				<div class="row">
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-igor.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-joao.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
+					</figcaption>
+				</figure>
+			</div>
 
-					<div class="panel-group col-sm-6 painel" id="paineis-sobre">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">
-								<h3 class="panel-title fonte-ichi">Rock</h3>
-							</div>
-
-							<div class="collapse in" id="terceiro-paragrafo">
-								<div class="panel-body">
-									Vejamos oque o igor compartilhara conosco a seguir
-									<div class="text-center">
-										<br />
-										<a href="rock/" class="btn btn-default">Acessar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-rafael.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
-		<hr />
-	</section>
-
-
-	<section id="page-4" class="container">
-		<br/><br/>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="images/chico-buarque.jpg" class="img-responsive" alt="" />
-			</div>
-			<div class="col-sm-8">
-				<div class="row">
-
-					<div class="panel-group col-sm-6 painel" id="paineis-sobre">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-target="#quarto-paragrafo" data-parent="#paineis-sobre">
-								<h3 class="panel-title fonte-ichi">MPB</h3>
-							</div>
-
-							<div class="collapse in" id="quarto-paragrafo">
-								<div class="panel-body">
-									Veja mais informações no link abaixo
-									<div class="text-center">
-										<br />
-										<a href="MPB/" class="btn btn-default">Acessar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr />
-	</section>
-
-	<section id="page-5" class="container">
-		<br/><br/>
-		<div class="row">
-			<div class="col-sm-4">
-				<img src="images/sertanejo_1.jpg" alt="" class="img-responsive"/>
-			</div>
-			<div class="col-sm-8">
-				<div class="row">
-
-					<div class="panel-group col-sm-6 painel" id="paineis-sobre">
-						<div class="panel panel-default">
-							<div class="panel-heading" data-toggle="collapse" data-target="#quinto-paragrafo" data-parent="#paineis-sobre">
-								<h3 class="panel-title fonte-ichi">Sertanejo</h3>
-							</div>
-
-							<div class="collapse in" id="quinto-paragrafo">
-								<div class="panel-body">
-									Para mais informações clique no link abaixo.
-									<div class="text-center">
-										<br />
-										<a href="sertanejo/" class="btn btn-default">Acessar</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-		<hr />
-	</section>
-
-	<footer id="equipe" class="fonte-ichi-white navbar-header navbar-inverse col-sm-12">
-		<div id="equipe-in" class="row collapse">
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-eduardo.jpg" alt="Generic placeholder image">
-					<a class="btn" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
-				</div>
-			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-gabriel.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
-				</div>
-			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-igor.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
-				</div>
-			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-joao.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
-				</div>
-			</div>
-			<div class="roda-5">
-				<div class="blogg">
-					<img class="img-circle img-responsive" src="images/rosto-rafael.jpg" alt="Generic placeholder image">
-					<a class="btn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
-				</div>
-			</div>
-		</div>
-		<div class="row container btn " data-toggle="collapse" data-target="#equipe-in">
-			<center>Copiright - Music Project - UTFPR 2016 - Hacken Jr<center>
+		<div href="#equipe" class="mybtn" data-toggle="collapse" data-target="#equipe-in">
+			<h4>Music Project -  Hacken Jr © 2017</h4>
 		</div>
 	</footer>
-
 	<script src="assets/js/jquery.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script src="assets/bootstrap-3.3.7-dist\js\bootstrap.js"></script>
 	<script src="assets/js/navbar-animation-fix.js"></script>
+	
 </body>
 </html>

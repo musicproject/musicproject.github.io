@@ -5,9 +5,17 @@
 html,
 body {
 	height: 100%;
+	background-image:url(../../images/textura.png);
+}
+header{
+	width:100%;
+	padding-top:3.2em;
+}
+#projetos h2{
+	color:blue;
 }
 
-header {
+#logoWalpaper {
 	background-image: url(../../images/wallpaper.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -15,34 +23,109 @@ header {
 	height: 100%;
 	width: 100%;
 }
-
-
-header h1 {
-	margin-top: 0;
-	margin-bottom: 0;
+.img-short{
+	max-width:275px;
+	float:left;
+	margin:10px;
 }
 
-.topCasaFina-banner {
-	color: #FFF;
-	background-color: rgba(0, 0, 0, .5);
-	padding: 20px;
-	width: 80%;
+#logoWalpaper h1 {
+	margin-top: 0;
+	font-size:3em;
+	margin-bottom: 0;
+}
+#logo{
+	font-family:"a bit sketchy";
+	width:90%;
+	height:100%;
+}
+#logo-sub{
+	font-family:"a bit sketchy";
+	width:90%;
+}
+#nav{
+	font-family:"a bit sketchy";
+	color: rgba(6,185,11,1);
+}
+#nav a{
+	color: rgba(6,185,11,1);
+	font-size:18px;
+}
+#nav a:hover{
+	color: rgba(0, 255, 41, 0.8);
+    text-decoration: none;
+}
+.autor{
+	font-size: 1em;
+	float: right;
+	background-color:rgba(0,0,0,0.5);
+	color:#FFF;
+	padding:5px;
+	margin:0.5em;
+	border: 1px solid rgba(255,255,255,1);
 	border-radius: 5px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	transition: .3s;
+}
+.autor name{
+	font-weight: bold;
+}
+.autor data{
+	font-style:italic;
+}
+.autor ref{
+	bottom:0px;
+}
+.autor ref a{
+	color:#FFF;
+	font-weight: bold;
+	text-decoration:none;
+}
+.deep-black{
+	width:90%;
+	margin:3% 5%;
+}
+.deep-white{
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.95);
+	min-height: 350px;
+	width:90%;
+	margin:1% 5%;
+    border: 1px solid #a7d7f9;
+	border-radius: 9px;
+    border-right-width: 0;
+}
+.deep-white img{
+	display: block;
+	max-width: 100%;
+	background-size:cover;
+	-webkit-transition: all .2s ease-in-out;
+       -o-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.bannerlogo {
+	color: #FFF;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 20px;
+	border-radius: 5px;
+	margin: 2px;
+	text-shadow:5px;
+	position: relative;
+	top: 30%;
+}
+.bannerlogo h1{
+	font-size:2.5em;
+	color:rgba(255,27,15,1);
+}
+.bannerlogo p{
+	font-size:1.5em;
+	color:rgba(148,254,41,1);
 }
 .rock_logo{
 	color: #FFF;
 	padding: 20px;
 	width: 80%;
+	min-height:120px;
 	border-radius: 5px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
 }
 
 .rock h2{
@@ -58,31 +141,28 @@ header h1 {
 	font-weight: bold;
 }
 
-.titulo-depoimentos {
-	background-color: #0275D8;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	color: #FFF;
-	margin-bottom: 0;
-	font-size: 24px;
-}
-
-.contato-select,
-.grupo-radio {
-	display: inline-block;
-	width: 50%;
-	vertical-align: top;
-}
-
-.grupo-radio .radio:first-child {
-	margin-top: 0;
-}
-
 footer {
-	background-color: #333;
-	color: #FFF;
-	margin-top: 10px;
+	background-color:rgba(0,0,0,0.95);
+	text-align:center;
 }
+.mybtn{
+	color: rgba(6,185,11,1);
+	display: inline-block;
+	margin-bottom: 0; // For input.btn
+	font-weight: @btn-font-weight;
+	text-align: center;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+}
+.mybtn:hover{
+	color: rgba(0, 255, 41, 0.8);
+    text-decoration: none;
+}
+
 
 footer address:last-child {
 	margin-bottom: 0;
@@ -94,16 +174,10 @@ footer address:last-child {
 	}
 }
 
-@media(min-width: 992px) {
-	.topCasaFina-banner {
+@media(min-width: 300px) {
+	.banner {
 		left: 0;
 		transform: translate(0, -80%);
-		width: 50%;
-	}
-
-	.topCasaFina-bannerWrapper {
-		position: relative;
-		height: 100%;
 	}
 }
 
@@ -113,34 +187,50 @@ footer address:last-child {
 }
 .fonte-ichi{
 	font-family:"a bit sketchy";
-	color:black;
-}
-.fonte-ichi-red{
-	font-family:"a bit sketchy";
-	color:red;
-}
-.fonte-ichi-blue{
-	font-family:"a bit sketchy";
-	color:blue;
-}
-.fonte-ichi-white{
-	font-family:"a bit sketchy";
-	color:white;
 }
 
 .blogg{
-	width:90%;
-	float:left;
 	margin-top:5%;
 	margin-left:5%;
 	padding: 20px;
 	border-radius: 5px;
 }
+.text-adjust{
+	padding:2em;
+}
 .roda-5{
 	width:20%;
-	float:left;
 	position:relative;
-	min-height:1px;
-	padding-right:15px;
-	padding-left:15px
 }
+
+
+.df{
+	font-family: 'Italiana', serif;
+        background-position: right center;
+        background-color: rgb(0, 191, 255,);
+        
+}
+.center { 
+    height: 200px;
+    position: relative; 
+}
+
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-10%, -15%);
+}
+
+.center p1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(0%, -15%);
+}
+
+
