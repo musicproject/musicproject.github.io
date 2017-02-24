@@ -24,7 +24,7 @@ header{
 	width: 100%;
 }
 .img-short{
-	max-width:20%;
+	max-width:275px;
 	float:left;
 	margin:10px;
 }
@@ -183,7 +183,7 @@ footer address:last-child {
 
 @font-face {
 	font-family:"A bit sketchy";
-	src:url("fonte/A_bit_sketchy.eot?") format("eot"),url("fonte/A_bit_sketchy.woff") format("woff"),url("fonte/A_bit_sketchy.ttf") format("truetype"),url("fonte/A_bit_sketchy.svg#Abitsketchy-Regular") format("svg");
+	src:url("A_bit_sketchy.eot?") format("eot"),url("A_bit_sketchy.woff") format("woff"),url("A_bit_sketchy.ttf") format("truetype"),url("A_bit_sketchy.svg#Abitsketchy-Regular") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
