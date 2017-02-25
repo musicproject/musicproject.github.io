@@ -1,4 +1,4 @@
-﻿<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+﻿<footer id="equipe" class="fonte-ichi navbar-header  navbar-fixed-bottom col-sm-12">
 		<div id="equipe-in" class="row deep-black collapse">
 			<div class="col-sm-2 col-md-1 col-lg-1">
 				<figure >
