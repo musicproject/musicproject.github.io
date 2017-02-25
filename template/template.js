@@ -8,6 +8,7 @@
 			
 			$("header").load('/template/header.php');
 			$("footer").load('/template/footer.php');
+			$("main").load('/home.php');
 			
 			iMasters.outraFuncao();
 		},
@@ -18,5 +19,5 @@
 })(jQuery);
 
 function carregar(pagina){
-        $("#conteudo").load(pagina);
-    }
+        $("main").load(pagina);
+}

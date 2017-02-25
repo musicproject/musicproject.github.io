@@ -15,11 +15,11 @@
 
 				<div class="collapse navbar-collapse" id="collapse-navbar">
 					<ul class="mybtn nav navbar-nav">
-						<li><a href="#page-1">Eduardo</a></li>
-						<li><a href="#page-2">Samba</a></li>
-						<li><a href="#page-3">Rock</a></li>
-						<li><a href="#page-4">MPB</a></li>
-						<li><a href="#page-5">Sertanejo</a></li>
+						<li><a onclick="carregar('/1/index.html')" href="">Eduardo</a></li>
+						<li><a onclick="carregar('/samba/index.html')" href="">Samba</a></li>
+						<li><a onclick="carregar('/rock/index.html')" href="">Rock</a></li>
+						<li><a onclick="carregar('/mpb/index.html')" href="">MPB</a></li>
+						<li><a onclick="carregar('/sertanejo/index.html')" href="#">Sertanejo</a></li>
 					</ul>
 				</div>
 			</div>
