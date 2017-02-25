@@ -6,14 +6,14 @@
 	var iMasters = {
 		init : function() {
 			
-			$("header").load('/template/header.php');
-			$("footer").load('/template/footer.php');
+			
 			$("body").load('/home.php');
 			
 			iMasters.outraFuncao();
 		},
 		outraFuncao : function() {
-			// Códigos desejados...
+			$("header").load('/template/header.php');
+			$("footer").load('/template/footer.php');
 		}
 	};
 })(jQuery);
