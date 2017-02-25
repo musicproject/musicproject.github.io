@@ -8,13 +8,10 @@
 			
 			
 			$("main").load('/home.php');
-			
-			iMasters.outraFuncao();
-		},
-		outraFuncao : function() {
 			$("header").load('/template/header.php');
 			$("footer").load('/template/footer.php');
-		}
+		},
+		
 	};
 })(jQuery);
 
