@@ -7,7 +7,7 @@
 		init : function() {
 			
 			
-			$("body").load('/home.php');
+			$("main").load('/home.php');
 			
 			iMasters.outraFuncao();
 		},
