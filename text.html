@@ -1,30 +1,116 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Exemplo</title>
-    <script type="text/javascript" src="assets/js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>  
-    <script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>  
-	
-    <style type="text/css"> #conteudo { width: 400px; height: 300px;} </style> 
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		<title>Music Project</title>
+		<link rel="stylesheet" href="assets/bootstrap-3.3.7-dist\css\bootstrap.css">
+		<link rel="stylesheet" href="assets/css/estilos.css">
+        
+        
+		<script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="assets/js/import.js"></script>
+        <script type="text/javascript" src="assets/bootstrap-3.3.7-dist\js\bootstrap.js"></script>
+        <script type="text/javascript" src="assets/js/navbar-animation-fix.js"></script>
+        <script type="text/javascript" src="assets/js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+         <script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script> 
+		
 </head>
-<body>    
-     <div id="sidebar">
-        <ul>
-            <li><a onclick="carregar('samba/index.html')" href="#">Home</a></li>
-            <li><a onclick="carregar('mpb/index.html')" href="#">Explore</a></li>
-            <li><a onclick="carregar('sertanejo/index.html')" href="#">Users</a></li>
-            <li><a onclick="carregar('rock/index.html')" href="#">Sign Out</a></li>
-        </ul>
-    </div>
-    <div id="conteudo"></div>
-</body>
-<script>
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div id="nav" class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand mybtn" href="#">Music Project</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="collapse-navbar">
+					<ul class="mybtn nav navbar-nav">
+						<li><a onclick="carregar('1/index.html')" href="#">Eduardo</a></li>
+						<li><a onclick="carregar('samba/index.html')" href="#">Samba</a></li>
+						<li><a onclick="carregar('rock/index.html')" href="#">Rock</a></li>
+						<li><a onclick="carregar('mpb/index.html')" href="#"href="#page-4">MPB</a></li>
+						<li><a onclick="carregar('sertanejo/index.html')" href="#">Sertanejo</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+	</header>
+	<div id="conteudo">
+		
+	</div>
+	
+	
+	
+	<footer id="equipe" class="fonte-ichi navbar-header col-sm-12">
+		<div id="equipe-in" class="row deep-black collapse">
+			<div class="col-sm-2 col-md-1 col-lg-1">
+				<figure >
+					<figcaption class="caption">
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-eduardo.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/tabsnospaces" >Eduardo Yuzo Nakai</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-gabriel.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/ltdagabriel" >Gabriel Choptian</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-igor.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/igorfaustino" >Igor Neves Faustino</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure>
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-joao.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/JoaoVictorNascimento" >Joao Victor Nascimento</a>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-sm-4 col-md-3 col-lg-2">
+				<figure >
+					<figcaption class="caption">
+						<img class="img-circle img-responsive" src="images/rosto-rafael.jpg" alt="Generic placeholder image">
+						<a class="mybtn sub" href="https://github.com/rmmenezes" >Rafael Menezes Barboza</a>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+		<div href="#equipe" class="mybtn" data-toggle="collapse" data-target="#equipe-in">
+			<h4>Music Project -  Hacken Jr © 2017</h4>
+		</div>
+	</footer>
+	<script>
     function carregar(pagina){
         $("#conteudo").load(pagina);
     }
 </script>
-
-<body>
 </body>
 </html>
