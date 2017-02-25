@@ -1,21 +1,4 @@
-﻿<!doctype html>
-<html>
-<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="shortcut icon" href="images/favicon.ico" />
-		<title>Music Project</title>
-		<link rel="stylesheet" href="assets/bootstrap-3.3.7-dist\css\bootstrap.css">
-		<link rel="stylesheet" href="assets/css/estilos.css">
-        
-        
-		<script src="assets/js/jquery-3.1.1.js"></script>
-        <script src="assets/js/import.js"></script>
-        <script src="assets/bootstrap-3.3.7-dist\js\bootstrap.js"></script>
-        <script src="assets/js/navbar-animation-fix.js"></script>
-        <script src="assets/js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
-		
-</head>
+﻿
 <body>
 
 	
