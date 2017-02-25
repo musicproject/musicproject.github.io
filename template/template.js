@@ -5,10 +5,6 @@
 	});
 	var iMasters = {
 		init : function() {
-			
-			
-			$("main").load('/home.php');
-			$("header").load('/template/header.php');
 			$("footer").load('/template/footer.php');
 		},
 		
