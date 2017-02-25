@@ -11,6 +11,7 @@
 	};
 })(jQuery);
 
-function carregar(pagina){
-        $("main").load(pagina);
+function carregar(destino,origem){
+        $(destino > "head").load(origem+" h1:lt(1)");
+		$(destino > "body").load(origiem+" p:lt(1)");
 }
