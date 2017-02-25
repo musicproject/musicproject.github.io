@@ -1,3 +1,5 @@
-$(document).ready(function(){
-	$('#samba').load('aa.txt');
+$.post('samba/index.php', function (html) {
+    //Essa é a função success
+    //O parâmetro é o retorno da requisição 
+    $('#sambacorpo').html(html);
 });

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Exemplo</title>
+    <script type="text/javascript" src="assets/js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>  
+    <script type="text/javascript" src="assets/js/jquery-3.1.1.js"></script>  
+	
+    <style type="text/css"> #conteudo { width: 400px; height: 300px;} </style> 
+</head>
+<body>    
+     <div id="sidebar">
+        <ul>
+            <li><a onclick="carregar('samba/index.html')" href="#">Home</a></li>
+            <li><a onclick="carregar('mpb/index.html')" href="#">Explore</a></li>
+            <li><a onclick="carregar('sertanejo/index.html')" href="#">Users</a></li>
+            <li><a onclick="carregar('rock/index.html')" href="#">Sign Out</a></li>
+        </ul>
+    </div>
+    <div id="conteudo"></div>
+</body>
+<script>
+    function carregar(pagina){
+        $("#conteudo").load(pagina);
+    }
+</script>
+
+<body>
+</body>
+</html>
