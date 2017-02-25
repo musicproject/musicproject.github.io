@@ -8,7 +8,7 @@
 			
 			$("header").load('/template/header.php');
 			$("footer").load('/template/footer.php');
-			$("main").load('/home.php');
+			$("body").load('/home.php');
 			
 			iMasters.outraFuncao();
 		},
