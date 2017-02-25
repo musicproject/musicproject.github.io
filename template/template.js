@@ -6,7 +6,8 @@
 	var iMasters = {
 		init : function() {
 			
-			$("header").load('template/header.php');
+			$("header").load('/template/header.php');
+			$("footer").load('/template/footer.php');
 			
 			iMasters.outraFuncao();
 		},
