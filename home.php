@@ -3,7 +3,7 @@
 
 	
 	<div class="deep-white" id="logo">
-		<div class="img-responsive">
+		<div class="">
 			<img src="images/wallpaper.png"></div>
             <div class="col-lg-1"></div>
 			<div class="col-lg-4 bannerlogo">
