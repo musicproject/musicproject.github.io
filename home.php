@@ -3,8 +3,9 @@
 
 	
 	<div class="deep-white" id="logo">
-		<div id="logoWalpaper">
-			<div class="col-lg-1"></div>
+		<div class="img-responsive">
+			<img src="images/wallpaper.png"></div>
+            <div class="col-lg-1"></div>
 			<div class="col-lg-4 bannerlogo">
 				<h1>#Music Project</h1>
 				<p>12 de Dezembro de 2016</p>
