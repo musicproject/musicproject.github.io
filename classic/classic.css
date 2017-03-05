@@ -2,6 +2,10 @@
   text-align: justify;
 }
 
+.history {
+	padding-left: 5%;
+}
+
 .thumbnail {
     background-color: #7f7f7f;
     /* IE9, iOS 3.2+ */
