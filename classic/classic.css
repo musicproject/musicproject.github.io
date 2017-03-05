@@ -84,9 +84,13 @@ body {
   height: 100%;
 }
 
-.parallax-window {
-  min-height: 700px;
-  background: transparent;
+.piano-image {
+	background-image: url(piano-instrument-music-keys-159420.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 100%;
+	width: 100%;
 }
 
 .img-left {
